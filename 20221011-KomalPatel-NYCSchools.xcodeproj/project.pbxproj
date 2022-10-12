@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		A853845428F5D83200C8432D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853845328F5D83200C8432D /* AppDelegate.swift */; };
 		A853845628F5D83200C8432D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853845528F5D83200C8432D /* SceneDelegate.swift */; };
-		A853845828F5D83200C8432D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853845728F5D83200C8432D /* ViewController.swift */; };
+		A853845828F5D83200C8432D /* SchoolListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853845728F5D83200C8432D /* SchoolListVC.swift */; };
 		A853845B28F5D83200C8432D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A853845928F5D83200C8432D /* Main.storyboard */; };
 		A853845D28F5D83400C8432D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A853845C28F5D83400C8432D /* Assets.xcassets */; };
 		A853846028F5D83400C8432D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A853845E28F5D83400C8432D /* LaunchScreen.storyboard */; };
+		A853846E28F5D90A00C8432D /* SchoolListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853846D28F5D90A00C8432D /* SchoolListModel.swift */; };
+		A864A6F628F5E1490088E101 /* tblSchoolNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A6F428F5E1490088E101 /* tblSchoolNameCell.swift */; };
+		A864A6F728F5E1490088E101 /* tblSchoolNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A864A6F528F5E1490088E101 /* tblSchoolNameCell.xib */; };
+		A864A6FA28F5E1F50088E101 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A6F928F5E1F50088E101 /* Extension.swift */; };
+		A864A6FF28F5EAD30088E101 /* SchoolDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A6FD28F5EAD30088E101 /* SchoolDetailVC.swift */; };
+		A864A70028F5EAD30088E101 /* SchoolDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A864A6FE28F5EAD30088E101 /* SchoolDetailVC.xib */; };
+		A864A70228F5EE0A0088E101 /* SchoolDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A70128F5EE0A0088E101 /* SchoolDetailModel.swift */; };
+		A864A70528F5FE240088E101 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A70428F5FE240088E101 /* Constants.swift */; };
+		A864A70728F601180088E101 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A70628F601180088E101 /* SchoolListViewModel.swift */; };
+		A864A70928F60FC60088E101 /* APIServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A70828F60FC60088E101 /* APIServiceConstants.swift */; };
+		A864A70C28F616C00088E101 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A864A70B28F616C00088E101 /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A853845028F5D83200C8432D /* 20221011-KomalPatel-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20221011-KomalPatel-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A853845328F5D83200C8432D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A853845528F5D83200C8432D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A853845728F5D83200C8432D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A853845728F5D83200C8432D /* SchoolListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListVC.swift; sourceTree = "<group>"; };
 		A853845A28F5D83200C8432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A853845C28F5D83400C8432D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A853845F28F5D83400C8432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A853846128F5D83400C8432D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A853846D28F5D90A00C8432D /* SchoolListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListModel.swift; sourceTree = "<group>"; };
+		A864A6F428F5E1490088E101 /* tblSchoolNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblSchoolNameCell.swift; sourceTree = "<group>"; };
+		A864A6F528F5E1490088E101 /* tblSchoolNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tblSchoolNameCell.xib; sourceTree = "<group>"; };
+		A864A6F928F5E1F50088E101 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A864A6FD28F5EAD30088E101 /* SchoolDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailVC.swift; sourceTree = "<group>"; };
+		A864A6FE28F5EAD30088E101 /* SchoolDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolDetailVC.xib; sourceTree = "<group>"; };
+		A864A70128F5EE0A0088E101 /* SchoolDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailModel.swift; sourceTree = "<group>"; };
+		A864A70428F5FE240088E101 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A864A70628F601180088E101 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		A864A70828F60FC60088E101 /* APIServiceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceConstants.swift; sourceTree = "<group>"; };
+		A864A70B28F616C00088E101 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,130 @@
 		A853845228F5D83200C8432D /* 20221011-KomalPatel-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
-				A853845328F5D83200C8432D /* AppDelegate.swift */,
-				A853845528F5D83200C8432D /* SceneDelegate.swift */,
-				A853845728F5D83200C8432D /* ViewController.swift */,
-				A853845928F5D83200C8432D /* Main.storyboard */,
-				A853845C28F5D83400C8432D /* Assets.xcassets */,
-				A853845E28F5D83400C8432D /* LaunchScreen.storyboard */,
-				A853846128F5D83400C8432D /* Info.plist */,
+				A864A70328F5FE150088E101 /* Common */,
+				A864A6F828F5E1CE0088E101 /* Extension */,
+				A853846B28F5D8A300C8432D /* Model */,
+				A853846928F5D88900C8432D /* View */,
+				A853846C28F5D8B900C8432D /* ViewModel */,
+				A853846A28F5D89900C8432D /* Controller */,
+				A853846728F5D86C00C8432D /* SupportingFiles */,
+				A853846828F5D87F00C8432D /* Assets */,
 			);
 			path = "20221011-KomalPatel-NYCSchools";
+			sourceTree = "<group>";
+		};
+		A853846728F5D86C00C8432D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A853846128F5D83400C8432D /* Info.plist */,
+				A853845328F5D83200C8432D /* AppDelegate.swift */,
+				A853845528F5D83200C8432D /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A853846828F5D87F00C8432D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A853845C28F5D83400C8432D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A853846928F5D88900C8432D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A853845928F5D83200C8432D /* Main.storyboard */,
+				A853845E28F5D83400C8432D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A853846A28F5D89900C8432D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A864A6FB28F5EA490088E101 /* ViewControllers */,
+				A853846F28F5D92100C8432D /* TableViewCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A853846B28F5D8A300C8432D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A853846D28F5D90A00C8432D /* SchoolListModel.swift */,
+				A864A70128F5EE0A0088E101 /* SchoolDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A853846C28F5D8B900C8432D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A864A70628F601180088E101 /* SchoolListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A853846F28F5D92100C8432D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A864A6F428F5E1490088E101 /* tblSchoolNameCell.swift */,
+				A864A6F528F5E1490088E101 /* tblSchoolNameCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A853847028F5D92B00C8432D /* SchoolListVC */ = {
+			isa = PBXGroup;
+			children = (
+				A853845728F5D83200C8432D /* SchoolListVC.swift */,
+			);
+			path = SchoolListVC;
+			sourceTree = "<group>";
+		};
+		A864A6F828F5E1CE0088E101 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A864A6F928F5E1F50088E101 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A864A6FB28F5EA490088E101 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A864A6FC28F5EA9F0088E101 /* SchoolDetailVC */,
+				A853847028F5D92B00C8432D /* SchoolListVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A864A6FC28F5EA9F0088E101 /* SchoolDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				A864A6FD28F5EAD30088E101 /* SchoolDetailVC.swift */,
+				A864A6FE28F5EAD30088E101 /* SchoolDetailVC.xib */,
+			);
+			path = SchoolDetailVC;
+			sourceTree = "<group>";
+		};
+		A864A70328F5FE150088E101 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A864A70A28F616B20088E101 /* ApiManager */,
+				A864A70428F5FE240088E101 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A864A70A28F616B20088E101 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				A864A70828F60FC60088E101 /* APIServiceConstants.swift */,
+				A864A70B28F616C00088E101 /* ServiceManager.swift */,
+			);
+			path = ApiManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A853846028F5D83400C8432D /* LaunchScreen.storyboard in Resources */,
+				A864A6F728F5E1490088E101 /* tblSchoolNameCell.xib in Resources */,
 				A853845D28F5D83400C8432D /* Assets.xcassets in Resources */,
 				A853845B28F5D83200C8432D /* Main.storyboard in Resources */,
+				A864A70028F5EAD30088E101 /* SchoolDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +277,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A853845828F5D83200C8432D /* ViewController.swift in Sources */,
+				A864A70928F60FC60088E101 /* APIServiceConstants.swift in Sources */,
+				A864A6F628F5E1490088E101 /* tblSchoolNameCell.swift in Sources */,
+				A853845828F5D83200C8432D /* SchoolListVC.swift in Sources */,
+				A864A70728F601180088E101 /* SchoolListViewModel.swift in Sources */,
+				A864A6FF28F5EAD30088E101 /* SchoolDetailVC.swift in Sources */,
+				A853846E28F5D90A00C8432D /* SchoolListModel.swift in Sources */,
+				A864A6FA28F5E1F50088E101 /* Extension.swift in Sources */,
 				A853845428F5D83200C8432D /* AppDelegate.swift in Sources */,
+				A864A70228F5EE0A0088E101 /* SchoolDetailModel.swift in Sources */,
 				A853845628F5D83200C8432D /* SceneDelegate.swift in Sources */,
+				A864A70528F5FE240088E101 /* Constants.swift in Sources */,
+				A864A70C28F616C00088E101 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +436,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "20221011-KomalPatel-NYCSchools/Info.plist";
+				INFOPLIST_FILE = "20221011-KomalPatel-NYCSchools/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,12 +465,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "20221011-KomalPatel-NYCSchools/Info.plist";
+				INFOPLIST_FILE = "20221011-KomalPatel-NYCSchools/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
